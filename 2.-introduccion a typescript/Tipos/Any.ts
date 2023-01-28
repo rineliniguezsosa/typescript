@@ -6,5 +6,5 @@
 
     avenger = 28.8934;
     
-    console.log(avenger.toFixed(2))
+    console.log(<number>avenger.toFixed(2))
 })()
