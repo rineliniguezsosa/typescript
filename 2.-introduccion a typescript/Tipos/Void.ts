@@ -1,3 +1,6 @@
 (()=>{
+    const myfuncion = ():void =>{
+        return
+    }
 
 })()
