@@ -1,3 +1,3 @@
 ;(() => {
-    
+    const batman:string = 'batman'
 })()
