@@ -4,4 +4,8 @@
     const returnnameheroe = ():string =>{
         return heroe;
     }
+
+    const power = ():string => {
+        return 'velocidad'
+    }
 })()
