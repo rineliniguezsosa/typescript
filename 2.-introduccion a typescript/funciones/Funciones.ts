@@ -1,3 +1,3 @@
 (()=>{
-
+    const heroe:string = 'flash';
 })()
