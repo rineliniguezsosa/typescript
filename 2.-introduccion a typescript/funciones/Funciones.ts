@@ -8,4 +8,6 @@
     const power = ():string => {
         return 'velocidad'
     }
+    const data = power()
+    console.log(typeof(data));
 })()
