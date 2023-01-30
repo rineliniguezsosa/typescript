@@ -18,6 +18,10 @@
             return `${this.name}`;
         }
 
+        set fullname(name:string){
+            this.name = name;
+        }
+
         getfullnamefromAvenger(){
             return super.getfullname()
         }
