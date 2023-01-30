@@ -13,4 +13,8 @@
     printAvenger(avenger);
     const { poder } = avenger;
     console.log(poder);
+    //desestructuracion de arreglos
+    const myheroes = ['spider-man', 'thor', 'hulk', 'cap america'];
+    const [, , hulk] = myheroes;
+    console.log(hulk);
 })();
