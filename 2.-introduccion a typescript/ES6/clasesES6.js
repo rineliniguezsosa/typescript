@@ -5,4 +5,8 @@
             this.power = power;
         }
     }
+
+    const avenger = new Avenger('iron man','super machine')
+
+    console.log(avenger);
 })()
