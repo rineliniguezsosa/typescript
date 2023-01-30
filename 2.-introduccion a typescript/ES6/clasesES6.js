@@ -8,7 +8,7 @@
 
     class Flyavenger{
         constructor(){
-            
+            this.vuela = true;
         }
     }
 
