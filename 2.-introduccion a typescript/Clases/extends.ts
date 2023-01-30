@@ -8,4 +8,8 @@
             return `${this.name}  ${this.realname}`
         }
     }
+
+    class Xmen extends Avenger{
+        
+    }
 })()
