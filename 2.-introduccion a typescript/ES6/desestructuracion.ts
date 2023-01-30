@@ -13,6 +13,13 @@
         poder:150.009
     }
 
+    const printAvenger = ({ironman}:superheroe) => {
+        console.log(ironman);
+        
+    }
+
+    printAvenger(avenger)
+
     const { poder } = avenger
 
     console.log(poder);
