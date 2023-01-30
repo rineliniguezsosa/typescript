@@ -1,8 +1,8 @@
 ;(() => {
     const avenger = {
         nick:'samuel l.jackson',
-        iron-man:'robert downey jr',
+        ironman:'robert downey jr',
         activo:true,
-        poder:150,009
+        poder:150.009
     }
 })()
