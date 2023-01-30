@@ -4,7 +4,7 @@
             
         }
 
-        private getfullname(){
+        protected getfullname(){
             return `${this.name}  ${this.realname}`
         }
     }
@@ -13,10 +13,14 @@
         constructor(name:string,realname:string,public isMutant:boolean){
             super(name,realname)
         }
+
+        getfullnamefromAvenger(){
+            return super.getfullname()
+        }
     }
 
     const wolverin:Xmen = new Xmen('wolverin','logan',true)
 
-    console.log(wolverin);
+    console.log(wolverin.getfullnamefromAvenger());
     
 })()
