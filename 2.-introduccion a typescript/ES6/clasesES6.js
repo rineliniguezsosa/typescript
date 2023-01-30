@@ -7,7 +7,9 @@
     }
 
     class Flyavenger{
-        
+        constructor(){
+            
+        }
     }
 
     const avenger = new Avenger('iron man','super machine')
