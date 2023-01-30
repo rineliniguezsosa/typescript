@@ -14,6 +14,10 @@
             super(name,realname)
         }
 
+        get fullname(){
+            return `${this.name}`;
+        }
+
         getfullnamefromAvenger(){
             return super.getfullname()
         }
@@ -21,6 +25,6 @@
 
     const wolverin:Xmen = new Xmen('wolverin','logan',true)
 
-    console.log(wolverin.getfullnamefromAvenger());
+    console.log(wolverin.fullname);
     
 })()
