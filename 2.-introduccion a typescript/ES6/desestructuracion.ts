@@ -12,4 +12,9 @@
         activo:true,
         poder:150.009
     }
+
+    const { poder } = avenger
+
+    console.log(poder);
+    
 })()
