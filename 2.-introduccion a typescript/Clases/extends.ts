@@ -1,7 +1,7 @@
 ;(() => {
     class Avenger{
-        constructor(){
-            
+        constructor(public name:string,public realname:string){
+
         }
     }
 })()
