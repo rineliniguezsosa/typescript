@@ -1,5 +1,7 @@
 ;(() => {
     class Avenger{
-
+        constructor(){
+            
+        }
     }
 })()
