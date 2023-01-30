@@ -28,7 +28,7 @@
     }
 
     const wolverin:Xmen = new Xmen('wolverin','logan',true)
-
-    console.log(wolverin.fullname);
+    wolverin.fullname = 'rinel';
+    console.log(wolverin.getfullnamefromAvenger());
     
 })()
