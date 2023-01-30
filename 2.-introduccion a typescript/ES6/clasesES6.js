@@ -6,7 +6,7 @@
         }
     }
 
-    class Flyavenger{
+    class Flyavenger extends Avenger{
         constructor(){
             this.vuela = true;
         }
