@@ -10,10 +10,12 @@
     }
 
     class Xmen extends Avenger{
-
+        constructor(name:string,realname:string,public isMutant:boolean){
+            super(name,realname)
+        }
     }
 
-    const wolverin:Xmen = new Xmen('wolverin','logan')
+    const wolverin:Xmen = new Xmen('wolverin','logan',true)
 
     console.log(wolverin);
     
