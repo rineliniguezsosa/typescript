@@ -13,6 +13,7 @@
     }
 
     const avenger = new Avenger('iron man','super machine')
+    const flyavenger = new Flyavenger()
 
-    console.log(avenger);
+    console.log(flyavenger);
 })()
