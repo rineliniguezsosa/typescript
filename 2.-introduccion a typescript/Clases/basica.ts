@@ -10,4 +10,8 @@
             this.realname = realname;
         }
     }
+
+    const antman:Avenger = new Avenger('ant-man','cap america')
+    console.log(antman);
+    
 })()
