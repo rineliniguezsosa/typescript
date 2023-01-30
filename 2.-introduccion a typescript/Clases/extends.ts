@@ -10,6 +10,11 @@
     }
 
     class Xmen extends Avenger{
-        
+
     }
+
+    const wolverin:Xmen = new Xmen('wolverin','logan')
+
+    console.log(wolverin);
+    
 })()
