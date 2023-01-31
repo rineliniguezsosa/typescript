@@ -9,7 +9,7 @@
         edad:number
     }
     class Mutante implements Xmen,Human{
-        constructor(public nombre:string,public realname:string){
+        constructor(public nombre:string,public realname:string,public edad:number){
 
         }
         getpower(id: number): string {
