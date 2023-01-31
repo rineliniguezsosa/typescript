@@ -16,7 +16,7 @@
         }
     }
 
-    const wolverin:Mutante = new Xmen('wolverin','logan') 
+    const wolverin = new Xmen('wolverin','logan') 
     const magneto = new Villan('magneto','magnus')
     console.log(wolverin);
     console.log(magneto);
