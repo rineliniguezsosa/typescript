@@ -1,7 +1,7 @@
 //IMPORT
-import { Hero } from "./clases";
+import { Hero as superheroe } from "./clases";
 
-const nuevo = new Hero('rinel',26,'programming')
+const nuevo = new superheroe('rinel',26,'programming')
 
 console.log(nuevo);
 
