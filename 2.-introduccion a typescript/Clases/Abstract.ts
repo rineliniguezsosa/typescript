@@ -18,8 +18,8 @@
 
     const wolverin = new Xmen('wolverin','logan') 
     const magneto = new Villan('magneto','magnus')
-    console.log(wolverin);
-    console.log(magneto);
+    console.log(wolverin.salvarmundo());
+    console.log(magneto.conquistarmundo());
     
     
 })()
