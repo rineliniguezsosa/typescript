@@ -4,4 +4,8 @@
 
         }
     }
+
+    const wolverin:Mutante = new Mutante('wolverin','logan') 
+    console.log(wolverin);
+    
 })()
