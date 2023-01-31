@@ -3,7 +3,8 @@
     interface Cliente {
         nombre:string,
         edad?:number,
-        adress?: Adress,
+        adress: Adress,
+        getfulladress(id:string):string;
     }
 
     interface Adress {
@@ -23,6 +24,9 @@
             id:234,
             zip:'KJY YHB',
             city:'chenku'
-        }
-    }
+        },
+        getfulladress(id:string){
+            return this.adress.city;
+        },
+    }    
 })()
