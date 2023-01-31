@@ -8,7 +8,7 @@
     interface Human {
         edad:number
     }
-    class Mutante implements Xmen{
+    class Mutante implements Xmen,Human{
         constructor(public nombre:string,public realname:string){
 
         }
