@@ -5,4 +5,8 @@
         realname:string,
         getpower(id:number):string,
     }
+
+    class Mutante implements Xmen{
+        
+    }
 })()
