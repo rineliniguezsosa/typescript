@@ -1,5 +1,5 @@
 (()=>{
-    class Mutante{
+    abstract class Mutante{
         constructor(public name:string,public realname:string){
 
         }
