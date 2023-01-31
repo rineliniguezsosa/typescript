@@ -5,7 +5,9 @@
         realname:string,
         getpower(id:number):string,
     }
-
+    interface Human {
+        edad:number
+    }
     class Mutante implements Xmen{
         constructor(public nombre:string,public realname:string){
 
