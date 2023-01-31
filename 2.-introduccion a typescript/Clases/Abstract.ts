@@ -5,8 +5,16 @@
         }
     }
 
-    class Xmen extends Mutante{}
-    class Villan extends Mutante{}
+    class Xmen extends Mutante{
+        salvarmundo(){
+            return "Mundo a salvo"
+        }
+    }
+    class Villan extends Mutante{
+        conquistarmundo(){
+            return "mundo conquistado"
+        }
+    }
 
     const wolverin:Mutante = new Xmen('wolverin','logan') 
     const magneto = new Villan('magneto','magnus')
