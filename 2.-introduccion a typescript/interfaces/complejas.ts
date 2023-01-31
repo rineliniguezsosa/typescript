@@ -2,7 +2,7 @@
 
     interface Cliente {
         nombre:string,
-        edad:number
+        edad?:number
     }
     const cliente = {
         nombre:'rinel',
