@@ -2,7 +2,14 @@
 
     interface Cliente {
         nombre:string,
-        edad?:number
+        edad?:number,
+        adress?: Adress,
+    }
+
+    interface Adress {
+        id:number,
+        zip:string,
+        city:string
     }
     const cliente = {
         nombre:'rinel',
