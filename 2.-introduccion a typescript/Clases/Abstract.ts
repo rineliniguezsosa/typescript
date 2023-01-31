@@ -6,6 +6,7 @@
     }
 
     class Xmen extends Mutante{}
+    class Villan extends Mutante{}
 
     const wolverin:Mutante = new Xmen('wolverin','logan') 
     console.log(wolverin);
