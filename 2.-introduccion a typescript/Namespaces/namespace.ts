@@ -9,3 +9,5 @@ namespace validatetext {
         return isNaN(myDate.valueOf()) ? false : true;
     }
 }
+
+console.log(validatetext.validatetext('rinel'));
