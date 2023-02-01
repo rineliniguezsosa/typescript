@@ -9,6 +9,14 @@ console.log(genericFunction(123).toFixed(1));
 console.log(genericFunction(new Date()).getMonth());
 console.log(genericFunction('Hola mundo rinel').toUpperCase());
 
+//CRERANDO EL OBJETO DEADPOOL
+const deadpool = {
+    name:'dead pool',
+    realname:'wade winston wilson',
+    dangerlevel:150
+}
+
+console.log(genericFunction(deadpool))
 
 
 
