@@ -1,6 +1,9 @@
+interface Values {
+    id:number,
+    name:string
+}
 
-
-const data = [
+const data:Values[] = [
     {
         'id':1,
         'name':'rinel'
