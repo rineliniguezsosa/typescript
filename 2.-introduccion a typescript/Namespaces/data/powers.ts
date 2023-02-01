@@ -13,3 +13,5 @@ const data:Values[] = [
         'name':'iñiguez'
     }
 ]
+
+export default data;
