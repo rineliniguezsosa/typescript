@@ -1,4 +1,4 @@
-import { Objectgeneric } from "./generics/generic";
+import { Objectgeneric,genericFunction } from "./generics/generic";
 
 Objectgeneric("12233")
 Objectgeneric(123)
