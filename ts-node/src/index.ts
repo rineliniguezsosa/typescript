@@ -18,7 +18,7 @@ const deadpool = {
     dangerlevel:150
 }
 
-console.log(genericFunction(deadpool))
+console.log(genericFunction<villan>(deadpool).dangerlevel)
 
 
 
