@@ -1,4 +1,4 @@
 export interface villan {
     name:string,
-    dengerlevel:number
+    dangerlevel:number
 }
