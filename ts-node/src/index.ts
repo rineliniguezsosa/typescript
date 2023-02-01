@@ -1,6 +1,7 @@
 import { Objectgeneric,genericFunction } from "./generics/generic";
-import { villan } from './interfaces/Villan';
-import { hero } from './interfaces/Hero'
+// import { villan } from './interfaces/Villan';
+// import { hero } from './interfaces/Hero'
+import { villan,hero } from './interfaces';
 
 console.log(Objectgeneric("12233").charAt(2));
 console.log(Objectgeneric(123));
