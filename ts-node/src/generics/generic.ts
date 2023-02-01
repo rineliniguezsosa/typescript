@@ -5,6 +5,6 @@ export const Objectgeneric = (arg:any):void=>{
 }
 
 //CONVERTIR UNA FUNCION EN GENERICA PARA LA AYUDA DEL TIPADO DE DATOS
-export function genericFunction<T>(arg:any){
+export function genericFunction<T>(arg:T):T{
     return arg
 }
