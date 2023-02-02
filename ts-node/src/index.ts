@@ -8,4 +8,4 @@ getPokemon(1)
     .finally( ()=> console.log('termino de consulta de la pokeapi'))
     
 const pokemon = new Pokemon('pikachu')
-console.log(pokemon);
+pokemon.savepokemon(2);
