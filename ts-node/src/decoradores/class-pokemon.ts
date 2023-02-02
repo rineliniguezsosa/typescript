@@ -1,6 +1,6 @@
 function checkpokemonId(){
     return function(target:any,propertyKey:string,descriptor:PropertyDescriptor){
-        console.log(target,propertyKey,descriptor)
+        const originalMethod = descriptor.value
     }
 }
 
