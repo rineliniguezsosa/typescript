@@ -7,3 +7,5 @@ getPokemon(1)
     .catch( error => console.log(error))
     .finally( ()=> console.log('termino de consulta de la pokeapi'))
     
+const pokemon = new Pokemon('pikachu')
+console.log(pokemon);
