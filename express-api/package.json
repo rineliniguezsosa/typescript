@@ -1,0 +1,23 @@
+{
+  "name": "express-api",
+  "version": "1.0.0",
+  "description": "este es un proyecto de prueba creando una Api rest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rineliniguezsosa/typescript.git"
+  },
+  "keywords": [
+    "apirest",
+    "typescript"
+  ],
+  "author": "rinel iniguez sosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rineliniguezsosa/typescript/issues"
+  },
+  "homepage": "https://github.com/rineliniguezsosa/typescript#readme"
+}
