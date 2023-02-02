@@ -1,4 +1,6 @@
 import { getPokemon } from './generics/getpokemon';
+import { Pokemon } from './decoradores/class-pokemon'; //decoradores
+
 
 getPokemon(1)
     .then( pokemon => console.log(pokemon.name))
