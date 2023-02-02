@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/rineliniguezsosa/typescript/issues"
   },
-  "homepage": "https://github.com/rineliniguezsosa/typescript#readme"
+  "homepage": "https://github.com/rineliniguezsosa/typescript#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
