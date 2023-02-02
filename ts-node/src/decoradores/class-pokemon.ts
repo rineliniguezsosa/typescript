@@ -1,6 +1,10 @@
 export class Pokemon{
     public publicApi:string = 'http://pokeapi.co'
     constructor(public name:string){
-
+        //UN DECORADOR ES UNA FUNCION QUE SE EJECUTA EN LA EJECUCION DE LA TRANSPILACION
     }
+    savepokemon(id:number){
+        console.log(`el pokemon se guardo en DB ${ id }`)
+    }
+
 }
